@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700;900&family=Lato:ital,wght@1,300;1,700;1,900&family=Montserrat+Alternates:ital@0;1&family=Open+Sans:wght@400;600;800&family=Roboto:wght@300;400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+:root 
+{
+  --bg-Color: #131722;
+  --lightBg-Color: #24baef;
+  --font-Color: #fff;
+} 
+
+body
+{
+  color: var(--font-Color);
+  background-color: var(--bg-Color);
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a li{
+  list-style: none;
+}
+
+a {
+  color: var(--font-Color);
+  text-decoration: none;
+}
+
+a:hover {
+  /* color: var(--lightBg-Color); */
+}
+
+.brdr {
+  border: 1px solid var(--lightBg-Color);
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
